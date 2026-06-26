@@ -8,7 +8,7 @@ $placement: right; // right | left
 
     // Interchangable variables
     --ytm-tv-vertical-padding: 0;
-    --ytm-tv-horizontal-padding: calc(64px * 2.5);
+    --ytm-tv-horizontal-padding: calc(64px * 3);
     --ytm-tv-song-info-font-size: calc(2rem * 1.2);
 }
 
@@ -58,6 +58,7 @@ ytmusic-player-page:not([is-mweb-modernization-enabled]):not([video-mode]) {
         #side-panel {
             height: 95vh;
             transform: translateY(-48px);
+            margin: 0 if($placement == right, var(--ytmusic-player-page-content-gap), 0) 0 if($placement == right, 0, var(--ytmusic-player-page-content-gap));
         }
         /// "Resume Autoscroll"
         .autoscroll-resume-wrapper {
