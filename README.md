@@ -10,6 +10,9 @@ That's all that I can say about it. Looks really nice though, and there's also a
 
 # Previews
 ![Harvey - Her's](/images/1.webp)
+
+The animated image above was recorded using the [new animation engine](https://github.com/better-lyrics/better-lyrics/pull/602)
+
 ![The Less I Know The Better - Tame Impala](/images/2.png)
 ![Love Me Not - Ravyn Lenae (left-sided layout)](/images/3.png)
 ![snowfall (Slowed + Reverb) - Øneheart & reidenshi (no lyrics)](/images/4.png)
