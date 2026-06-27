@@ -5,6 +5,7 @@ $placement: right; // right | left
     --blyrics-font-size: calc(3rem * 1.1);
     --blyrics-instrumental-icon-size: 4rem;
     --blyrics-fullscreen-video-panel-size: 30%;
+    --blyrics-wobble-duration: 2.5s; // New animation engine attribute
 
     // Interchangable variables
     --ytm-tv-vertical-padding: 0;
